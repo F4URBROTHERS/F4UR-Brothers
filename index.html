@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F4UR Brothers - Junk Removal & Demolition | Cleveland</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Impact:wght@400;700&family=Roboto:wght@400;700&display=swap');
+        :root { --gold: #D4AF37; --dark: #1a1a1a; }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Roboto', sans-serif; line-height:1.6; color:#333; background:#f8f8f8; }
+        header { background:var(--dark); color:white; position:fixed; width:100%; z-index:1000; box-shadow:0 2px 10px rgba(0,0,0,0.3); }
+        nav { max-width:1200px; margin:0 auto; padding:1rem 2rem; display:flex; justify-content:space-between; align-items:center; }
+        .logo { font-family:'Impact',sans-serif; font-size:2.2rem; color:var(--gold); }
+        
+        .hero { height:100vh; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://i.imgur.com/2gsQe.jpg') center/cover; display:flex; align-items:center; justify-content:center; text-align:center; color:white; }
+        .hero h1 { font-size:4.5rem; font-family:'Impact',sans-serif; color:var(--gold); }
+        .btn { background:var(--gold); color:#111; padding:1rem 2.5rem; font-size:1.3rem; font-weight:700; text-decoration:none; border-radius:50px; margin:10px; display:inline-block; transition:0.3s; }
+        .btn:hover { transform:scale(1.08); }
+
+        section { padding:5rem 2rem; max-width:1200px; margin:0 auto; }
+        h2 { font-family:'Impact',sans-serif; font-size:3rem; text-align:center; margin-bottom:3rem; color:var(--dark); }
+
+        .services-grid, .reviews-grid, .gallery-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:2rem; }
+        .service-card, .review-card { background:white; border-radius:12px; padding:1.5rem; box-shadow:0 10px 30px rgba(0,0,0,0.1); }
+        .service-card img { width:100%; height:220px; object-fit:cover; border-radius:8px; }
+        .review-card { text-align:center; }
+        .stars { color:#D4AF37; font-size:1.5rem; }
+
+        .booking { background:#111; color:white; text-align:center; padding:4rem 2rem; }
+        .gallery-grid img { width:100%; height:280px; object-fit:cover; border-radius:8px; }
+
+        footer { background:var(--dark); color:#aaa; text-align:center; padding:3rem 1rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">F4UR BROTHERS</div>
+            <ul style="display:flex; gap:2rem; list-style:none;">
+                <li><a href="#services" style="color:white; text-decoration:none;">Services</a></li>
+                <li><a href="#book" style="color:white; text-decoration:none;">Get Estimate</a></li>
+                <li><a href="#reviews" style="color:white; text-decoration:none;">Reviews</a></li>
+                <li><a href="#gallery" style="color:white; text-decoration:none;">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div>
+            <h1>F4UR BROTHERS</h1>
+            <p style="font-size:2rem; margin:1rem 0;">Junk Removal & Demolition</p>
+            <p style="font-size:1.5rem;">Cleveland's Trusted Family-Owned Cleanup Crew</p>
+            <a href="#book" class="btn">SCHEDULE FREE ESTIMATE</a>
+            <a href="mailto:Deangello463@yahoo.com" class="btn">EMAIL US</a>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="https://i.imgur.com/2gsQe.jpg" alt="Junk Removal">
+                <h3>Junk Removal</h3>
+                <p>Full house cleanouts, garage, basement, estate cleanups. Fast & responsible hauling.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://i.imgur.com/4BsKh.jpg" alt="Demolition">
+                <h3>Demolition</h3>
+                <p>Interior gut jobs, garage & shed demolition, kitchen & bathroom removal.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOKING -->
+    <section id="book" class="booking">
+        <h2 style="color:#D4AF37;">Get Your Free Estimate Today</h2>
+        <p style="font-size:1.4rem; max-width:700px; margin:0 auto 2rem;">Book a quick on-site or phone estimate. Most jobs scheduled within 48 hours.</p>
+        
+        <a href="https://calendly.com" target="_blank" class="btn" style="background:white; color:#111; font-size:1.4rem;">📅 Schedule Appointment Now</a>
+        <p style="margin-top:2rem;">Or email us directly:<br>
+        <strong><a href="mailto:Deangello463@yahoo.com" style="color:#D4AF37;">Deangello463@yahoo.com</a></strong></p>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews">
+        <h2>What Our Customers Say</h2>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"These guys were fast, professional, and reasonably priced. Cleared out my entire garage in one day. Highly recommend!"</p>
+                <strong>— Mike T., Cleveland</strong>
+            </div>
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"Did a full house cleanout after my mom passed. Very respectful and thorough. Will definitely use again."</p>
+                <strong>— Sarah P., Parma</strong>
+            </div>
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"Demolished our old shed and hauled everything away. Saved me so much time and hassle. 10/10 service!"</p>
+                <strong>— James R., Lakewood</strong>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery">
+        <h2>Recent Projects</h2>
+        <div class="gallery-grid">
+            <img src="https://i.imgur.com/8tWZf.jpg" alt="Project">
+            <img src="https://i.imgur.com/OOCxS.jpg" alt="Project">
+            <img src="https://i.imgur.com/TFUW6.jpg" alt="Project">
+            <img src="https://i.imgur.com/4BsKh.jpg" alt="Project">
+            <img src="https://i.imgur.com/z5G1D.jpg" alt="Project">
+            <img src="https://i.imgur.com/2gsQe.jpg" alt="Project">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 F4UR Brothers Junk Removal & Demolition • Cleveland, OH</p>
+        <p>📧 Deangello463@yahoo.com • Family Owned & Operated</p>
+    </footer>
+</body>
+</html>
